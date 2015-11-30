@@ -23,6 +23,6 @@ default["atom"]["package_file"] = value_for_platform_family(
 )
 
 default["atom"]["package_url"] = value_for_platform_family(
-  "debian" => "https://s3.amazonaws.com/github-cloud/releases/3228505/767a2e52-5165-11e5-9543-06437ed1b879.deb?response-content-disposition=attachment%3B%20filename%3Datom-amd64.deb&response-content-type=application/octet-stream&AWSAccessKeyId=AKIAISTNZFOVBIJMK3TQ&Expires=1441631211&Signature=bMYTXLz3SIdXnk8D9hoXGIZYZTI%3D",
-  "suse" => "https://s3.amazonaws.com/github-cloud/releases/3228505/5e5cb2ac-5167-11e5-9193-b8e51d09e860.rpm?response-content-disposition=attachment%3B%20filename%3Datom.x86_64.rpm&response-content-type=application/octet-stream&AWSAccessKeyId=AKIAISTNZFOVBIJMK3TQ&Expires=1441631157&Signature=%2FM3F3x1k6y6ufjeoVaOIgSqsiE0%3D"
+  "debian" => "https://atom.io/download/deb",
+  "suse" => "https://atom.io/download/rpm"
 )
